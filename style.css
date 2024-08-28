@@ -1,0 +1,628 @@
+#home{
+    height: 700px;
+    background-image: url(img/first-person-top-view-photo-hands-giving-stylish-craft-paper-giftbox-with-blue-satin-ribbon-bow-red-paper-heart-isolated-pastel-blue-background-with-empty-space_352249-6991.webp);
+    background-size: 100% 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+  
+
+
+}
+#home .navbar{
+    width: 100%;
+    height: 90px;
+    display: inline-block;
+    background-color: white;
+    background-color:rgba(142, 225, 255, 0.342);
+
+    
+}   
+#home .navbar .links ul  {
+  
+    display: inline-block;
+
+
+}
+#home .navbar .links ul li {
+    color:blue;
+    display: inline-block;
+     padding-left: 10px ;
+     padding-right: 20px;
+     padding-top: 0px;
+      
+
+}
+
+
+
+#home .navbar .logo img {
+    
+   height: 60px;
+    display: inline-block ;
+    margin-left: 10px;
+    margin-right: 200px;
+  
+}
+#home .navbar .logo{
+    display: inline-block;
+    margin-top: 16px;
+}
+#home .navbar .links{
+    display: inline-block;
+    background-color:powderblue;
+   
+   
+}
+#home .navbar .links ul li a{
+    color:blue;
+    text-decoration: none;
+   
+}
+
+
+
+
+#home .caption {
+    text-align: center;
+    color:darkblue;
+    margin-top: 70px;
+    padding: 20px 0px;
+}
+#home .caption p{
+    font-size: 30px;
+ 
+}
+#home .caption h1{
+    font-size: 70px;
+}
+
+#home .caption .btn1,#home .caption .btn2{
+    background-color: transparent;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+
+}
+#home .caption .btn1{
+    background-color:darkblue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkblue ;
+}
+#home .caption .btn2{
+    border-style: solid;
+    border-width: 2px;
+    border-color:darkblue;
+    color: darkblue;
+}
+
+
+ 
+#home .btn1:hover{
+    color:black;
+    background-color: powderblue;
+    border-color:powderblue;
+}
+
+ 
+#home .btn2:hover{
+    color:black;
+    background-color: powderblue;
+    border-color:powderblue;
+}
+
+
+ 
+#home  .links ul li a:hover{
+    color:darkblue;
+  
+}
+
+#home  .links ul li:hover{
+    color:darkblue;
+  
+}
+
+
+
+
+.caption h1 {
+    color:darkblue;
+    font-size: 30px;
+}
+
+.caption h1::after {
+    content: '|';
+    animation-name: typing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: 'H|';
+    }
+
+    2% {
+        content: 'HE|';
+    }
+
+    4% {
+        content: 'HEL|';
+    }
+
+    6% {
+        content: 'HELL|';
+    }
+
+    8% {
+        content: 'HELLO|';
+    }
+
+    10% {
+        content: 'HELLO |';
+    }
+
+    12% {
+        content: 'HELLO T|';
+    }
+
+    14% {
+        content: 'HELLO TO|';
+    }
+
+    16% {
+        content: 'HELLO TO |';
+    }
+
+    18% {
+        content: 'HELLO TO O|';
+    }
+
+    20% {
+        content: 'HELLO TO OU|';
+    }
+
+    22% {
+        content: 'HELLO TO OUR|';
+    }
+
+    24% {
+        content: 'HELLO TO OUR |';
+    }
+
+    26% {
+        content: 'HELLO TO OUR G|';
+    }
+
+    28% {
+        content: 'HELLO TO OUR GI|';
+    }
+
+    30% {
+        content: 'HELLO TO OUR GIF|';
+    }
+
+    32% {
+        content: 'HELLO TO OUR GIFT|';
+    }
+
+    34% {
+        content: 'HELLO TO OUR GIFT |';
+    }
+
+    36% {
+        content: 'HELLO TO OUR GIFT S|';
+    }
+
+    38% {
+        content: 'HELLO TO OUR GIFT SH|';
+    }
+
+    40% {
+        content: 'HELLO TO OUR GIFT SHO|';
+    }
+
+    42% {
+        content: 'HELLO TO OUR GIFT SHOP|';
+    }
+
+    44% {
+        content: 'HELLO TO OUR GIFT SHO|';
+    }
+
+    46% {
+        content: 'HELLO TO OUR GIFT SH|';
+    }
+
+    48% {
+        content: 'HELLO TO OUR GIFT S|';
+    }
+
+    50% {
+        content: 'HELLO TO OUR GIFT|';
+    }
+
+    52% {
+        content: 'HELLO TO OUR GIF|';
+    }
+
+    54% {
+        content: 'HELLO TO OUR GI|';
+    }
+
+    56% {
+        content: 'HELLO TO OUR G|';
+    }
+
+    58% {
+        content: 'HELLO TO OUR|';
+    }
+
+    60% {
+        content: 'HELLO TO OU|';
+    }
+
+    62% {
+        content: 'HELLO TO |';
+    }
+
+    64% {
+        content: 'HELLO T|';
+    }
+
+    66% {
+        content: 'HELLO|';
+    }
+
+    68% {
+        content: 'HELLO|';
+    }
+
+    70% {
+        content: 'HEL|';
+    }
+
+    72% {
+        content: 'HE|';
+    }
+
+    74% {
+        content: 'H|';
+    }
+
+    76% {
+        content: '|';
+    }
+
+    80% {
+        content: ':|';
+    }
+
+    82% {
+        content: ':D|';
+    }
+
+    84% {
+        content: ':D|';
+    }
+
+    86% {
+        content: ':D|';
+    }
+
+    88% {
+        content: ':D|';
+    }
+
+    90% {
+        content: ':D|';
+    }
+
+    92% {
+        content: ':D|';
+    }
+
+    94% {
+        content:':D|';
+    }
+
+    96% {
+        content: ':D|';
+    }
+
+    98% {
+        content: ':|';
+    }
+
+    100% {
+        content: '.|';
+    }
+
+
+}
+
+
+
+
+
+#section2{
+
+    height:700px;
+    text-align: center;
+    overflow:visible;
+    box-sizing: border-box;
+    
+    }
+    
+
+
+    #section2 h2{
+        font-size:1cm;
+        color:darkblue;
+    }
+    
+    #section2 button{
+        border-width: 5px;
+        font-size: 20px;
+        border-color: white;
+        border-style: solid;
+        background-color: white;
+    }
+     
+    
+    .member{
+        width: 31.5%;
+        position: relative;
+        border: 5px solid #fff;
+        overflow: hidden;
+        float: left;
+    }
+
+
+
+    #section2 .member .empty{
+        background-color: rgba(42,63,85,0.7);
+        width: 100%;
+        height: 600px;
+        position: absolute;
+        top:0px;
+        left:0px;
+        right:0px;
+        bottom:0px;
+        opacity: 0;
+        transition: all 1s;
+        
+    }
+
+    #section2 .member .empty{
+        color: white;
+        font-size:.7cm;
+        text-align: center;
+       
+    }
+
+
+
+    .member img{
+        width: 100%;
+    }
+    
+    #section2 .empty:hover{
+         opacity: 1;
+    }
+    
+    #section2 .btn:hover{
+        color:darkblue;
+    }
+
+    #section2 .diff-color{
+        font-size: 9px;
+        color: darkblue;
+        text-align: center;
+    }
+
+    
+
+
+
+#cart h2{
+    padding-top: 100px;
+    color: darkblue;
+    font-size: .9cm;
+    padding-left: 150px;
+}
+  .cart-box img{
+    width: 150px;
+  }
+
+
+
+
+
+#map .the_map {
+
+    border-color: black;
+    border-width: 3px;
+    float:right;
+ 
+ 
+ }
+
+
+
+
+
+#offer{
+    background-color:darkgray;
+    color: darkblue;
+    width:100%;
+    height:300px;
+    font-size: .9cm;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+
+
+#map{
+
+    background-color: rgba(210, 208, 208, 0.813);
+    height: 400px;
+}
+#map iframe{
+    padding-right: 40px;
+    padding-top: 0px;
+}
+
+ #map .comment {
+     text-align: left;
+     margin-top: 120px;
+     display: block;
+     
+ 
+ }
+ #map .comment p , #map .comment h2{
+     padding-top: 10px;
+     color: darkblue;
+     height: 150px;
+     padding: 0px 100px;
+     font-size: .9cm;
+ }
+ 
+ 
+ #map .comment p {
+font-size: .8cm;
+     color: black;
+     width:500px;
+ }
+
+
+#know_more{
+    width: 100%;
+    height: 500px;
+    background-color:rgba(210, 208, 208, 0.813);
+    color: darkblue;
+    font-size: .9cm;
+    display:inline-block;
+   
+}
+#know_more p{
+    color:darkslategrey;
+    font-size: .6cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sec7{
+            background-color: #f2f4f4;
+            height: 600px;
+           
+        
+    } 
+    #sec7 .now  p{
+        color:black;
+        position: absolute;
+        left:100px;
+    }
+    #sec7 .next{
+        display: flex;
+    
+    }
+    
+   #sec7 h3 {
+    padding-top: 90px;
+    font-size: 40px;
+    position: relative;
+    left: 400px;
+    padding-bottom: 40px;
+    
+    
+    }
+    
+   
+
+    #sec7 table{
+       
+        margin-left: 200px;
+        margin-bottom: 20px;
+    }
+    
+    #sec7 .lable{
+    width: 370px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    border-color:gray;
+
+
+}
+
+#sec7 .lable3{
+    width: 760px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 20px 0px;
+
+}
+
+
+#sec7  button{
+    border-width: 2px;
+    font-size: 20px;
+    border-color:darkblue;
+    background-color: darkblue;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 15px;
+    color: white;
+    margin-left: 500px;
+    margin-top: 10px;
+
+}
+#sec7  .btn:hover {
+    background-color:darkgray;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+#end{
+    background-color: darkgray;
+    height: 400px;
+    width: 100%;
+}
+#end .frist{
+
+    width: 19.8%;
+    height: 205px;
+    float:left;
+  
+    padding: 29px;
+}
+#last{
+    background-color: darkgrey;
+    text-align: center;
+
+    
+}
